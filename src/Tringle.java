@@ -34,6 +34,6 @@ public class Tringle extends Shape{
         return base*3 ;
     }
     public String toString(){
-        return "\n"+"The Area of Tringle = "+calculateArea()+"\t"+" The Circumference of Tringle = "+calculateCircumference();
+        return "The Area of Tringle = "+calculateArea()+"\t"+" The Circumference of Tringle = "+calculateCircumference();
     }
 }
